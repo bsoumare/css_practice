@@ -25,11 +25,13 @@ p{
 
 img{
     width: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
     border: 10px;
     border-style: dashed;
     border-color: white;
+    display: block;
+    margin-right:auto ;
+    margin-left: auto;
 }
 
 div{
@@ -37,4 +39,43 @@ div{
     padding: 20px;
     border: 3px;
     border-color: white;
+}
+
+.introduction{
+    border-radius: 15px;
+    text-align: right;
+    margin-top: 15px;
+    border-color: white;
+}
+
+.red{
+    background-color: red;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+.blue{
+    background-color: blue;
+    text-align: left;
+    margin-right: 50px;
+    border-right:5px;
+    border-top: 2px; 
+}
+
+.yellow{
+    background-color: rgb(233, 233, 64);
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left:5px;
+}
+
+.green{
+    background-color: #00EB00;
+    text-align: left;
+    margin-right: 50px;
+    border-right:5px;
+    border-top: 2px;
 }
