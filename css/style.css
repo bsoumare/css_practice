@@ -1,11 +1,11 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    text-decoration: white;
+    background-color: #000000;
+    text-decoration: #FFFFFF;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    color:white;
+    color:#FFFFFF;
 }
 
 h1{
@@ -14,7 +14,7 @@ h1{
 }
 
 h2{
-    color: #0D0D0D;
+    color: #000000;
 }
 
 p{
@@ -28,7 +28,7 @@ img{
     align-items: center;
     border: 10px;
     border-style: dashed;
-    border-color: white;
+    border-color: #FFFFFF;
     display: block;
     margin-right:auto ;
     margin-left: auto;
@@ -38,18 +38,18 @@ div{
     height: 125px;
     padding: 20px;
     border: 3px;
-    border-color: white;
+    border-color: #FFFFFF;
 }
 
 .introduction{
     border-radius: 15px;
     text-align: right;
     margin-top: 15px;
-    border-color: white;
+    border-color: #FFFFFF;
 }
 
 .red{
-    background-color: red;
+    background-color:#FF0000;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px;
@@ -57,7 +57,7 @@ div{
 }
 
 .blue{
-    background-color: blue;
+    background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
     border-right:5px;
@@ -65,7 +65,7 @@ div{
 }
 
 .yellow{
-    background-color: rgb(233, 233, 64);
+    background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px;
@@ -73,7 +73,7 @@ div{
 }
 
 .green{
-    background-color: #00EB00;
+    background-color: #008000;
     text-align: left;
     margin-right: 50px;
     border-right:5px;
